@@ -1,0 +1,10 @@
+The first version of the code is spell_check_without_suggestion.cpp  it can ceck speeling, highlight the incorrect word and give option to user whether to ignore the error it orr enter customly type spelling
+The final dictionary ised is dictionary_111.txt which is merged version of cambridge.txt, dictionary.txt,final_dic.txt
+in the code if you enter 1 then after that you have to press the suggestion index with wich you want to replace the false word
+if you enter 2 then it wil ignore
+if you enter 3 then after that you have to write custom spelling with which you want to replace the given spelling
+spell_check_final_version.cpp is the final version and spell_check_without_suggestion.cpp is the earlier version, we have just putten it for reference
+spell_check_app.py is the python version of the code, we used python to build a spell check application and it also pronounces correct spelling
+Algorithm.docx contains the algorithm of our c++ code
+why trie and algorithm analysis.docx contains why we chosed trie and gives algorithm analysis
+time_complexity.txt contains time complexity of various functions we used to make our spell check application
