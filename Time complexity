@@ -1,0 +1,17 @@
+Time Complexity:
+
+1) Trie Construction: The time complexity of constructing the Trie is O(n.m) where 'n' is the size of the dictionary and 'm' is the average length of the words in the dictionary. As of here the time complexity would depend on the length of the word.
+
+Here, 'm' would refer to traversing each word and 'n' traversing each word in dictionary which you inserted in Trie.
+
+
+2) Searching in Trie: Here as you would traverse from the root of Trie to leaf node it would make it's time complexity O(m) where 'm' would be word length which is to be searched.
+
+
+3) Suggesting Corrections: In worst case the time complexity would be O(26^m) as for each character position in the word there are another 26 possible characters and further for each word which is not end of word.
+
+
+4) Loading dictionary: Time complexity in loading dictionary would be same as Trie construction i.e. O(n.m).
+
+
+5) Overall: Let's assume the input file has 'x' words in it so the time complexity here in worst case scenario would be O(x.m + x.(26^m))=O(x.(m+26^m)) where 'x.m' represents Trie construction as well as loading the dictionary and 'x.26^m' represents suggesting corrections.
